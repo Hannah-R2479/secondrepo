@@ -14,11 +14,11 @@ void loop() {
 
   if (knobValue > 400) 
   {
-    digitalWrite(LED_BUILTIN, HIGH); //Turn LED on
+    digitalWrite(LED, HIGH); //Turn LED on
   }
   else 
   {
-    digitalWrite(LED_BUILTIN, LOW); //Turn LED off, keep it off
+    digitalWrite(LED, LOW); //Turn LED off, keep it off
   }
 
   delay(100); //Small delay in between reads for stability
